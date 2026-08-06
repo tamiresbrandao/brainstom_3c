@@ -1,0 +1,1 @@
+constcaixaprincipal = document.queryselector("caixa-principal");
