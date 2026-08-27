@@ -1,10 +1,10 @@
 /*variaveis globais*/
 :root {
-  --cor-fundo: #01080E;
-  --cor-principal: #0B0D20;
-  --cor-secundaria: #212333;
-  --cor-destaque: #2BDEFD;
-  --cor-texto: #D7F9FF;
+  --cor-fundo: #aa1e74;
+  --cor-principal: #200b1a;
+  --cor-secundaria: #b83290;
+  --cor-destaque: #f5ade9;
+  --cor-texto: #f7f7f7;
 }
 
 body {
