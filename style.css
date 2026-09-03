@@ -1,27 +1,43 @@
-/*variaveis globais*/
-:root {
-  --cor-fundo: #aa1e74;
-  --cor-principal: #200b1a;
-  --cor-secundaria: #b83290;
-  --cor-destaque: #f5ade9;
-  --cor-texto: #f7f7f7;
+:root{
+--cor-fundo: #01080E ;
+--cor-principal: #0B0D20 ;
+--cor-secundaria: #212333;
+--cor-destaque: #2BDEFD;
+--cor-texto: #D7F9FF;
+
 }
 
 body {
-  background-color: var(--cor-fundo);
-  color: var(--cor-texto);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  max-width: 100vh;
-  margin: 0 auto;
-  padding: 16px;
+background-color: var(--cor-fundo);
+color: var(--cor-texto);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
 }
 
-.caixa-principal {
-  background-color: var(--cor-principal);
-  width: 90%;
-  text-align: center;
-  padding: 20px;
+.caixa-principal{
+background-color: var(--cor-principal);
+width: 90%;
+max-width: 600px;
+text-align: center;
+padding: 20px;
+}
+
+h1{
+color: var(--cor-destaque);
+}
+
+button {
+background-color: var(--cor-secundaria);
+color: var(--cor-texto);
+border: none;
+border-radius: 15px;
+padding: 15px;
+transition: background-color 0.3s;
+}
+
+button:hover{
+background-color: var(--cor-destaque);
+color: var(--cor-principal);
 }
